@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0">
+    <title> University Wedsite Design </title>
+    <!-------   font link  ------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!------- icons link------>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-------index------>
+    <section class="sub-header">
+        <nav>
+            <a herf="index.html"><img src="file:///C:/Users/admin/Documents/project/Saved%20Pictures/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!------------contact us --------->
+<section class="loaction">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.11675443573!2d80.06892399764824!3d13.047487785378403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1651127203925!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">             <!--------contact us class-------->
+            <div>
+                <i class="fa fa-home"></i> 
+                <span>
+                    <h5>UVW Road, XYZ Building</h5>
+                    <p>Chennai, Tamil Nadu, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i> 
+                <span>
+                    <h5>+91 9360513265</h5>
+                    <p>Chennai, Tamil Nadu, IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i> 
+                <span>
+                    <h5>vs696422@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col"> 
+            <form action="form-handler.php">   <!----php for the back end so it wills end the data to php through post method---->
+                <input type="text" name="name" placeholder="enter your name" required>            <!------place holder and form and input is used to create a form box------>
+                <input type="email" name="email"placeholder="enter email address" required>
+                <input type="text" name="subject"placeholder="enter your subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>         <!-------text area is for big box to type our text------->
+                <button type="Submit" class="hero-btn red-btn">Send Message</button>   <!-------- button tag with class name hero and red btn   text in the button is send message, role of the button is submmit those details------>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+ 
+
+<!----------footer-------->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis dolores ipsam quasi accusantium? Facilis, non animi.<br> Doloribus cumque labore, sequi enim vitae reprehenderit voluptas neque natus? Quo, magnam reprehenderit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made With <i class="fa fa-heart-o"></i> By Easy Tutorials </p>
+
+''
+
+</section>
+
+
+<!----------- JS FOR TOGGLE MENU---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+</body>
+</html>

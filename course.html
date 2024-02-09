@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale= 1.0">
+    <title> University Wedsite Design </title>
+    <!-------   font link  ------->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<!------- icons link------>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-------index------>
+    <section class="sub-header">
+        <nav>
+            <a herf="index.html"><img src="file:///C:/Users/admin/Documents/project/Saved%20Pictures/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+-
+<!-----------course--------->
+<section class="course">
+    <h1>courses we offer</h1>
+     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+     <div class="row">
+         <div class="course-col">
+             <h3>Intermediate</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio totam libero velit delectus, quaerat accusantium laudantium harum, aut ab commodi culpa odio necessitatibus amet ad minima error in. Sint, quos.</p>
+         </div>
+         <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio totam libero velit delectus, quaerat accusantium laudantium harum, aut ab commodi culpa odio necessitatibus amet ad minima error in. Sint, quos.</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Gaduation</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio totam libero velit delectus, quaerat accusantium laudantium harum, aut ab commodi culpa odio necessitatibus amet ad minima error in. Sint, quos.</p>
+        </div>
+     </div>
+    
+</section>
+
+<!--------facilities------->
+<section class="facilities">
+    <h1>Our Facilities</h1>  
+    <p>Lorem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="file:///C:/Users/admin/Documents/project/Saved%20Pictures/library.png">
+            <h3> World Class library </h3>
+            <p>Lorem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="file:///C:/Users/admin/Documents/project/Saved%20Pictures/basketball.png">
+            <h3> Largest play ground </h3>
+            <p>Lorem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="file:///C:/Users/admin/Documents/project/Saved%20Pictures/cafeteria.png">
+            <h3> Tasty And Healthy FoodS </h3>
+            <p>Lorem ipsum dolor sit,amet consectetur adipisicing elit.</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+ 
+
+<!----------footer-------->
+
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus facilis dolores ipsam quasi accusantium? Facilis, non animi.<br> Doloribus cumque labore, sequi enim vitae reprehenderit voluptas neque natus? Quo, magnam reprehenderit.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> Made With <i class="fa fa-heart-o"></i> By Easy Tutorials </p>
+
+
+
+</section>
+
+
+<!----------- JS FOR TOGGLE MENU---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+
+
+</body>
+</html>
